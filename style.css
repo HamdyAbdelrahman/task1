@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: transparent !important; /* Make navbar background transparent */
+  }
+.collapse-navbar-collapse{
+    margin-right: 400px;
+}
+.navbar-brand{
+    margin-left: 400px;
+    color: #eee;
+    font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-nav .nav-link.active{
+    color: #f4623a;
+}
+.navbar-nav .nav-link {
+    color: #eee; /* Set text color for navbar links */
+    margin-right: 10px; /* Adjust margin between links */
+  }
+  .navbar-toggler {
+    border-color: #eee; /* Set color for navbar toggler icon */
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Set background image for navbar toggler icon */
+  }
+.hero{
+    background-image: url('./img/bg-masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 300px 0;
+    text-align: center;
+    height: 100vh;
+    }
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); 
+        height: 100vh;
+      }
+
+ .hero .divider {
+     max-width: 3.25rem;
+     border-width: 0.2rem;
+     border-color: #f4623a;
+     margin: 1rem auto;
+}
+
+.hero p{
+    margin-top: 50px;
+    font-size: medium;
+}
+.hero button{
+    margin-top: 40px;
+    background-color: #f4623a;
+    border-radius: 10px;
+}
+.about{
+    background-color: #f4623a;
+}
+.about .container{
+    padding-top: 80px;
+}
+.about h2{
+    padding: 20px;
+}
+ .about .divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #fff;
+    margin: 1rem auto;
+}
+.about button{
+    margin: 40px;
+    width: 200px;
+}
